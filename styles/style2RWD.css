@@ -1,4 +1,4 @@
-/* CSS ePortfolio - Thème Japon (Indigo, Sakura, Fuji/Torii "MILA" & Dragon Footer) */
+/* CSS ePortfolio - Thème Japon (Indigo, Sakura, Fuji/Torii "MILA", Dragon Footer & Correction Mobile) */
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -251,13 +251,6 @@ body::after {
     align-items: center;
     max-height: none;
     padding: 10px 0;
-    /* Correction : Force les images à ne jamais déborder de la carte sur mobile */
-  section img {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    border-radius: 5px;
-  }
   }
 
   nav ul li {
@@ -266,14 +259,10 @@ body::after {
     margin-bottom: 5px;
   }
 
-  section.ligne-images {
+  .lignes-images {
+    display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  section.ligne-images img {
-    width: 90%;
-    max-width: 300px;
   }
 
   section {
@@ -304,6 +293,14 @@ body::after {
   body::after {
     font-size: 15vw;
     right: -2%;
+  }
+
+  /* LA CORRECTION POUR QUE LES IMAGES NE DÉBORDENT PLUS SUR MOBILE */
+  section img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 5px;
   }
 }
 
@@ -337,10 +334,4 @@ body::after {
   }
 
   nav ul li {
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
-  }
-
-  section {
-    margin-bottom: 80px;
-  }
-}
+    box-shadow: 2px 2px 6px rgba(0,0
