@@ -251,6 +251,13 @@ body::after {
     align-items: center;
     max-height: none;
     padding: 10px 0;
+    /* Correction : Force les images à ne jamais déborder de la carte sur mobile */
+  section img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 5px;
+  }
   }
 
   nav ul li {
