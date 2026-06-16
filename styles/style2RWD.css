@@ -1,0 +1,339 @@
+/* CSS ePortfolio - Thème Japon (Indigo, Sakura, Fuji/Torii "MILA" & Dragon Footer) */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  /* L'image SVG du Mont Fuji, Torii et Sakura avec Mila en japonais, combiné au dégradé */
+  background-image: 
+    url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDgwMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSI+CiAgPGcgc3Ryb2tlPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMTUpIiBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjIiPgogICAgPCEtLSBTdW4gLS0+CiAgICA8Y2lyY2xlIGN4PSI1MDAiIGN5PSIzNTAiIHI9IjE4MCIgZmlsbD0icmdiYSgyMjUsIDI5LCA3MiwgMC4xNSkiIHN0cm9rZT0ibm9uZSIgLz4KICAgIAogICAgPCEtLSBNb3VudCBGdWppIC0tPgogICAgPHBhdGggZD0iTSAxMDAgNjUwIFEgMzUwIDM1MCA0MjAgMzAwIEwgNTgwIDMwMCBRIDY1MCAzNTAgOTAwIDY1MCIgc3Ryb2tlLXdpZHRoPSI0IiAvPgogICAgPCEtLSBTbm93IGNhcCAtLT4KICAgIDxwYXRoIGQ9Ik0gNDIwIDMwMCBMIDM4MCA0MDAgTCA0MzAgNDIwIEwgNDYwIDM4MCBMIDUwMCA0NDAgTCA1NDAgMzgwIEwgNTcwIDQyMCBMIDYyMCA0MDAgTCA1ODAgMzAwIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxwYXRoIGQ9Ik0gNDIwIDMwMCBMIDM4MCA0MDAgTSA1ODAgMzAwIEwgNjIwIDQwMCIgLz4KICAgIAogICAgPCEtLSBUb3JpaSBHYXRlIC0tPgogICAgPGcgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2U9InJnYmEoMjI1LCAyOSwgNzIsIDAuMykiPgogICAgICAgIDxsaW5lIHgxPSIzODAiIHkxPSI1MDAiIHgyPSI2MjAiIHkyPSI1MDAiIHN0cm9rZS13aWR0aD0iMTAiLz4gPCEtLSBUb3AgcmFpbCAtLT4KICAgICAgICA8bGluZSB4MT0iNDAwIiB5MT0iNTIwIiB4Mj0iNjAwIiB5Mj0iNTIwIiAvPiA8IS0tIFNlY29uZCByYWlsIC0tPgogICAgICAgIDxsaW5lIHgxPSI0MzAiIHkxPSI1MDAiIHgyPSI0MzAiIHkyPSI2NTAiIHN0cm9rZS13aWR0aD0iOCIgLz4gPCEtLSBMZWZ0IHBpbGxhciAtLT4KICAgICAgICA8bGluZSB4MT0iNTcwIiB5MT0iNTAwIiB4Mj0iNTcwIiB5Mj0iNjUwIiBzdHJva2Utd2lkdGg9IjgiIC8+IDwhLS0gUmlnaHQgcGlsbGFyIC0tPgogICAgICAgIDxyZWN0IHg9IjQ4MCIgeT0iNTIwIiB3aWR0aD0iNDAiIGhlaWdodD0iNTUiIGZpbGw9InJnYmEoMjI1LCAyOSwgNzIsIDAuMikiIHN0cm9rZS13aWR0aD0iMyIvPiA8IS0tIENlbnRlciBwbGFxdWUgLS0+CiAgICA8L2c+CiAgICAKICAgIDwhLS0gTmFtZTogTUlMQSAo44Of44OpKSAtLT4KICAgIDx0ZXh0IHg9IjUwMCIgeT0iNTYwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMjgiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC40KSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgc3Ryb2tlPSJub25lIj7jg5/jg6k8L3RleHQ+CiAgICAKICAgIDwhLS0gU2FrdXJhIEJyYW5jaGVzICYgUGV0YWxzIC0tPgogICAgPHBhdGggZD0iTSAwIDEwMCBRIDE1MCA1MCAyNTAgMTUwIFEgMzAwIDIwMCAyODAgMjUwIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZT0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjEpIiAvPgogICAgPHBhdGggZD0iTSAxMDAwIDE1MCBRIDg1MCAxMDAgNzUwIDIwMCBRIDcwMCAyNTAgNzIwIDMwMCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2U9InJnYmEoMjU1LCAyNTUsIDI1NSwgMC4xKSIgLz4KICAgIAogICAgPGcgZmlsbD0icmdiYSgyNTUsIDE4MiwgMTkzLCAwLjMpIiBzdHJva2U9Im5vbmUiPgogICAgICAgIDxlbGxpcHNlIGN4PSIyNTAiIGN5PSIxNTAiIHJ4PSIxMCIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKDQ1IDI1MCAxNTApIiAvPgogICAgICAgIDxlbGxpcHNlIGN4PSIyNjUiIGN5PSIxNDAiIHJ4PSIxMCIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKC0zMCAyNjUgMTQwKSIgLz4KICAgICAgICA8ZWxsaXBzZSBjeD0iMjQwIiBjeT0iMTY1IiByeD0iMTAiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgxNSAyNDAgMTY1KSIgLz4KICAgICAgICAKICAgICAgICA8ZWxsaXBzZSBjeD0iNzUwIiBjeT0iMjAwIiByeD0iMTAiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSg2MCA3NTAgMjAwKSIgLz4KICAgICAgICA8ZWxsaXBzZSBjeD0iNzMwIiBjeT0iMTkwIiByeD0iMTAiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgtNDUgNzMwIDE5MCkiIC8+CiAgICAgICAgPGVsbGlwc2UgY3g9Ijc2NSIgY3k9IjIxNSIgcng9IjEwIiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoMjAgNzY1IDIxNSkiIC8+CiAgICAgICAgCiAgICAgICAgPCEtLSBGYWxsaW5nIHBldGFscyAtLT4KICAgICAgICA8ZWxsaXBzZSBjeD0iMzAwIiBjeT0iMjgwIiByeD0iOCIgcnk9IjQiIHRyYW5zZm9ybT0icm90YXRlKDIwIDMwMCAyODApIiAvPgogICAgICAgIDxlbGxpcHNlIGN4PSIzNTAiIGN5PSI0MDAiIHJ4PSI5IiByeT0iNCIgdHJhbnNmb3JtPSJyb3RhdGUoNzUgMzUwIDQwMCkiIC8+CiAgICAgICAgPGVsbGlwc2UgY3g9IjIwMCIgY3k9IjUwMCIgcng9IjExIiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTE1IDIwMCA1MDApIiAvPgogICAgICAgIDxlbGxpcHNlIGN4PSI2NTAiIGN5PSIzNTAiIHJ4PSI4IiByeT0iNCIgdHJhbnNmb3JtPSJyb3RhdGUoNDAgNjUwIDM1MCkiIC8+CiAgICAgICAgPGVsbGlwc2UgY3g9IjcwMCIgY3k9IjU1MCIgcng9IjEwIiByeT0iNCIgdHJhbnNmb3JtPSJyb3RhdGUoLTYwIDcwMCA1NTApIiAvPgogICAgICAgIDxlbGxpcHNlIGN4PSI4MDAiIGN5PSI0NTAiIHJ4PSI5IiByeT0iNCIgdHJhbnNmb3JtPSJyb3RhdGUoMTAgODAwIDQ1MCkiIC8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4='),
+    linear-gradient(135deg, #0f172a, #1e1b4b, #31103f, #881337);
+  
+  background-attachment: fixed, fixed;
+  background-position: center center, center center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover; 
+
+  color: #1a1a1a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+html {
+  overscroll-behavior: none;
+}
+
+/* --- Menu de Navigation --- */
+nav ul {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  background-color: rgba(15, 23, 42, 0.85);
+  border-bottom: 4px solid #e11d48;
+  width: 100%;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  background-color: #fff0f5; 
+  border: 2px solid #9f1239; 
+  border-radius: 4px; 
+  padding: 10px 20px;
+  max-width: 150px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+nav ul li a {
+  color: #881337;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+  height: 100%;
+  letter-spacing: 1px;
+}
+
+nav ul li:hover {
+  background-color: #e11d48;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(225, 29, 72, 0.4);
+  border-color: #fff0f5;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+/* --- Sections Principales --- */
+section {
+  width: 90%;
+  max-width: 900px;
+  background: rgba(253, 253, 250, 0.95);
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 8px;
+  border-left: 6px solid #e11d48;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  position: relative;
+  z-index: 10;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #1e1b4b;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px dashed #cbd5e1;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+/* --- Images et Contenus --- */
+.lignes-images {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.lignes-images img {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 10px;
+  border: 3px solid transparent;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.lignes-images img:hover {
+  border-color: #e11d48;
+  transform: scale(1.02);
+}
+
+.cliquable {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 900px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* --- Tableaux --- */
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+caption {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 12px;
+  color: #fff0f5;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #1e1b4b;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #fce7f3;
+}
+
+tr:hover {
+  background-color: #fbcfe8;
+}
+
+/* --- Pied de page avec le DRAGON --- */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  
+  background-image: 
+    url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDEwMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSI+CiAgICA8ZyBmaWxsPSJub25lIiBzdHJva2U9InJnYmEoMjU1LCAyNTUsIDI1NSwgMC4xNSkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8IS0tIE1haW4gQm9keSBQYXRoOiBBIHdhdnkgaG9yaXpvbnRhbCBjdXJ2ZSB0cmF2ZXJzaW5nIHRoZSBmb290ZXIgLS0+CiAgICAgICAgPHBhdGggZD0iTSAtNTAgNTAgCiAgICAgICAgICAgICAgICAgQyAxMDAgLTIwLCAyMDAgMTIwLCAzNTAgNTAgCiAgICAgICAgICAgICAgICAgQyA1MDAgLTIwLCA2MDAgMTIwLCA3NTAgNTAKICAgICAgICAgICAgICAgICBDIDkwMCAtMjAsIDEwMDAgMTIwLCAxMTUwIDUwCiAgICAgICAgICAgICAgICAgQyAxMjAwIDIwLCAxMjUwIDgwLCAxMzAwIDUwIiBzdHJva2Utd2lkdGg9IjQiIC8+CiAgICAgICAgICAgICAgICAgCiAgICAgICAgPCEtLSBQYXJhbGxlbCBsaW5lIGZvciB0aGlja25lc3MvYmVsbHkgLS0+CiAgICAgICAgPHBhdGggZD0iTSAtNTAgNTggCiAgICAgICAgICAgICAgICAgQyAxMDAgLTEyLCAyMDAgMTI4LCAzNTAgNTggCiAgICAgICAgICAgICAgICAgQyA1MDAgLTEyLCA2MDAgMTI4LCA3NTAgNTgKICAgICAgICAgICAgICAgICBDIDkwMCAtMTIsIDEwMDAgMTI4LCAxMTUwIDU4CiAgICAgICAgICAgICAgICAgQyAxMjAwIDI4LCAxMjUwIDg4LCAxMzAwIDU4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1kYXNoYXJyYXk9IjggNiIgLz4KCiAgICAgICAgPCEtLSBEcmFnb24gSGVhZCAoTGVmdCBzaWRlLCBvciByaWdodCBzaWRlPyBMZXQncyBtYWtlIGl0IGZhY2luZyByaWdodCwgaGVhZCBhdCAxMTAwKSAtLT4KICAgICAgICA8cGF0aCBkPSJNIDExNTAgNTAgUSAxMTcwIDMwIDExOTAgNDUgUSAxMTcwIDYwIDExNTAgNTgiIHN0cm9rZS13aWR0aD0iMyIgLz4KICAgICAgICA8cGF0aCBkPSJNIDExOTAgNDUgUSAxMjAwIDUwIDExOTAgNTUiIHN0cm9rZT0icmdiYSgyMjUsIDI5LCA3MiwgMC40KSIgc3Ryb2tlLXdpZHRoPSIyIiAvPiA8IS0tIFRvbmd1ZSAtLT4KICAgICAgICA8IS0tIEhvcm5zIC0tPgogICAgICAgIDxwYXRoIGQ9Ik0gMTE2MCAzOCBRIDExNTAgMjAgMTEzMCAxNSIgc3Ryb2tlLXdpZHRoPSIyIiAvPgogICAgICAgIDxwYXRoIGQ9Ik0gMTE2NSA0MiBRIDExNTUgMzAgMTE0MCAyNSIgc3Ryb2tlLXdpZHRoPSIyIiAvPgoKICAgICAgICA8IS0tIERyYWdvbiBUYWlsIChMZWZ0IHNpZGUgYXQgMCkgLS0+CiAgICAgICAgPHBhdGggZD0iTSAxMCAzOCBRIC0yMCA1MCAxMCA2MiIgc3Ryb2tlLXdpZHRoPSIyIiAvPgogICAgICAgIDxwYXRoIGQ9Ik0gMCA1MCBMIC00MCA1MCIgc3Ryb2tlLXdpZHRoPSIyIiAvPgoKICAgICAgICA8IS0tIFNjYWxlcy9DbGF3cyBkZXRhaWxzIGFsb25nIHRoZSBib2R5IC0tPgogICAgICAgIDxwYXRoIGQ9Ik0gMzMwIDQ1IEwgMzQwIDM1IEwgMzUwIDQ1IiBzdHJva2Utd2lkdGg9IjEuNSIgLz4KICAgICAgICA8cGF0aCBkPSJNIDM0MCA2NSBMIDM1MCA3NSBMIDM2MCA2NSIgc3Ryb2tlLXdpZHRoPSIxLjUiIC8+CiAgICAgICAgPHBhdGggZD0iTSA3MzAgNDUgTCA3NDAgMzUgTCA3NTAgNDUiIHN0cm9rZS13aWR0aD0iMS41IiAvPgogICAgICAgIDxwYXRoIGQ9Ik0gNzQwIDY1IEwgNzUwIDc1IEwgNzYwIDY1IiBzdHJva2Utd2lkdGg9IjEuNSIgLz4KICAgICAgICAKICAgICAgICA8IS0tIEJhY2tncm91bmQgQ2xvdWRzIChLdW1vKSAtLT4KICAgICAgICA8ZyBzdHJva2U9InJnYmEoMjU1LCAyNTUsIDI1NSwgMC4wOCkiIHN0cm9rZS13aWR0aD0iMiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0gMTUwIDcwIEEgMTUgMTUgMCAwIDEgMTgwIDcwIEEgMjAgMjAgMCAwIDEgMjEwIDgwIEEgMTAgMTAgMCAwIDEgMjAwIDkwIEwgMTQwIDkwIEEgMTAgMTAgMCAwIDEgMTUwIDcwIFoiIC8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0gNTUwIDMwIEEgMTUgMTUgMCAwIDEgNTgwIDMwIEEgMjAgMjAgMCAwIDEgNjEwIDQwIEEgMTAgMTAgMCAwIDEgNjAwIDUwIEwgNTQwIDUwIEEgMTAgMTAgMCAwIDEgNTUwIDMwIFoiIC8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0gOTUwIDgwIEEgMTUgMTUgMCAwIDEgOTgwIDgwIEEgMjAgMjAgMCAwIDEgMTAxMCA5MCBBIDEwIDEwIDAgMCAxIDEwMDAgMTAwIEwgOTQwIDEwMCBBIDEwIDEwIDAgMCAxIDk1MCA4MCBaIiAvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+'),
+    linear-gradient(rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.95));
+  background-position: center;
+  background-size: cover;
+  
+  border-top: 3px solid #e11d48;
+  color: #f1f5f9;
+  text-align: center;
+  z-index: 1000;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+footer ul li {
+  width: 30%;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/* --- Aside --- */
+aside {
+  padding: 25px 15px 90px 20px;
+}
+
+aside img {
+  border: 0;
+  width: 88px;
+  height: 31px;
+}
+
+/* --- Textes Japonais en arrière-plan (Filigrane Poétique) --- */
+body::before, body::after {
+  position: fixed;
+  z-index: -1;
+  color: rgba(255, 255, 255, 0.05);
+  font-family: 'Yu Mincho', 'MS Mincho', serif;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  pointer-events: none;
+  user-select: none;
+  white-space: pre;
+}
+
+body::before {
+  content: '愛 \3000 許し \3000 誠実'; 
+  font-size: 8vw;
+  left: 3%;
+  top: 5%;
+}
+
+body::after {
+  content: '欲望 \3000 相互性';
+  font-size: 8vw;
+  right: 3%;
+  bottom: 5%;
+}
+
+/* --- Responsive Web Design --- */
+.image-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Mobile */
+@media screen and (max-width: 640px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    max-height: none;
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 5px;
+  }
+
+  section.ligne-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.ligne-images img {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  section {
+    width: 85%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  footer ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  footer ul li {
+    width: 100%;
+  }
+
+  body::before {
+    font-size: 15vw;
+    left: -2%;
+  }
+  body::after {
+    font-size: 15vw;
+    right: -2%;
+  }
+}
+
+/* Tablette */
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+  section.lignes-images img {
+    width: 45%;
+    max-width: 350px;
+  }
+  section {
+    margin-bottom: 80px;
+  }
+}
+
+/* Petit écran de bureau */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  section.lignes-images img {
+    width: 30%;
+    max-width: 400px;
+  }
+  section {
+    margin-bottom: 80px;
+  }
+}
+
+/* Grand écran */
+@media screen and (min-width: 1280px) {
+  section.lignes-images img {
+    width: 200px;
+    max-width: none;
+  }
+
+  nav ul li {
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  }
+
+  section {
+    margin-bottom: 80px;
+  }
+}
